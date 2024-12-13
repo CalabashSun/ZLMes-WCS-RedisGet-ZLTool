@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F85D131A-1FB8-4121-A37F-064BA36EA038}|Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.core\\plcread.core\\configuration\\plcelecconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85D131A-1FB8-4121-A37F-064BA36EA038}|Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj|solutionrelative:libraries\\plcread.core\\plcread.core\\configuration\\plcelecconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.service\\plcread.service\\scheduletasks\\tasks\\eletrictask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|solutionrelative:libraries\\plcread.service\\plcread.service\\scheduletasks\\tasks\\eletrictask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBC9DB8-D260-4E28-96BF-ACC4A812F4AD}|Presentation\\PLCRead.Web\\PLCRead.Web\\PLCReadInfo.Web.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\presentation\\plcread.web\\plcread.web\\app_data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FBC9DB8-D260-4E28-96BF-ACC4A812F4AD}|Presentation\\PLCRead.Web\\PLCRead.Web\\PLCReadInfo.Web.csproj|solutionrelative:presentation\\plcread.web\\plcread.web\\app_data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBC9DB8-D260-4E28-96BF-ACC4A812F4AD}|Presentation\\PLCRead.Web\\PLCRead.Web\\PLCReadInfo.Web.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\presentation\\plcread.web\\plcread.web\\infrastructure\\prostartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBC9DB8-D260-4E28-96BF-ACC4A812F4AD}|Presentation\\PLCRead.Web\\PLCRead.Web\\PLCReadInfo.Web.csproj|solutionrelative:presentation\\plcread.web\\plcread.web\\infrastructure\\prostartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85D131A-1FB8-4121-A37F-064BA36EA038}|Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.core\\plcread.core\\plcread.core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F85D131A-1FB8-4121-A37F-064BA36EA038}|Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj|solutionrelative:libraries\\plcread.core\\plcread.core\\plcread.core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.service\\plcread.service\\scheduletasks\\tasks\\plcteamuptask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|solutionrelative:libraries\\plcread.service\\plcread.service\\scheduletasks\\tasks\\plcteamuptask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01ABAA31-788B-439D-B9CD-7908D8BF6188}|Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.data\\plcread.data\\database\\plc_elecdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01ABAA31-788B-439D-B9CD-7908D8BF6188}|Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj|solutionrelative:libraries\\plcread.data\\plcread.data\\database\\plc_elecdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.service\\plcread.service\\plcread.service.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|solutionrelative:libraries\\plcread.service\\plcread.service\\plcread.service.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.service\\plcread.service\\scheduletasks\\tasks\\heartbeattask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|solutionrelative:libraries\\plcread.service\\plcread.service\\scheduletasks\\tasks\\heartbeattask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.service\\plcread.service\\rediscache\\iredisconnectionwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|solutionrelative:libraries\\plcread.service\\plcread.service\\rediscache\\iredisconnectionwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.service\\plcread.service\\rediscache\\rediscachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A21101-09F0-4B3B-A00C-9F25BB0E9D7B}|Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj|solutionrelative:libraries\\plcread.service\\plcread.service\\rediscache\\rediscachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85D131A-1FB8-4121-A37F-064BA36EA038}|Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.core\\plcread.core\\configuration\\plccollectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85D131A-1FB8-4121-A37F-064BA36EA038}|Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj|solutionrelative:libraries\\plcread.core\\plcread.core\\configuration\\plccollectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85D131A-1FB8-4121-A37F-064BA36EA038}|Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\zl_plc_redis\\libraries\\plcread.core\\plcread.core\\configuration\\plcflitchdataconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85D131A-1FB8-4121-A37F-064BA36EA038}|Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj|solutionrelative:libraries\\plcread.core\\plcread.core\\configuration\\plcflitchdataconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProStartup.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Presentation\\PLCRead.Web\\PLCRead.Web\\Infrastructure\\ProStartup.cs",
+              "RelativeDocumentMoniker": "Presentation\\PLCRead.Web\\PLCRead.Web\\Infrastructure\\ProStartup.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Presentation\\PLCRead.Web\\PLCRead.Web\\Infrastructure\\ProStartup.cs",
+              "RelativeToolTip": "Presentation\\PLCRead.Web\\PLCRead.Web\\Infrastructure\\ProStartup.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwCoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:29:01.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EletricTask.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\EletricTask.cs",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\EletricTask.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\EletricTask.cs",
+              "RelativeToolTip": "Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\EletricTask.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAFIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:28:43.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PLCRead.Core",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj",
+              "RelativeToolTip": "Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T01:09:33.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PLCRead.Service",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj",
+              "RelativeToolTip": "Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-27T07:30:38.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HeartBeatTask.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\HeartBeatTask.cs",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\HeartBeatTask.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\HeartBeatTask.cs",
+              "RelativeToolTip": "Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\HeartBeatTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:23:24.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Presentation\\PLCRead.Web\\PLCRead.Web\\App_Data\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\PLCRead.Web\\PLCRead.Web\\App_Data\\appsettings.json",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Presentation\\PLCRead.Web\\PLCRead.Web\\App_Data\\appsettings.json",
+              "RelativeToolTip": "Presentation\\PLCRead.Web\\PLCRead.Web\\App_Data\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAWwA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T08:42:43.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PLCTeamUpTask.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\PLCTeamUpTask.cs",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\PLCTeamUpTask.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\PLCTeamUpTask.cs",
+              "RelativeToolTip": "Libraries\\PLCRead.Service\\PLCRead.Service\\ScheduleTasks\\Tasks\\PLCTeamUpTask.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:24:09.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRedisConnectionWrapper.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\RedisCache\\IRedisConnectionWrapper.cs",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Service\\PLCRead.Service\\RedisCache\\IRedisConnectionWrapper.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\RedisCache\\IRedisConnectionWrapper.cs",
+              "RelativeToolTip": "Libraries\\PLCRead.Service\\PLCRead.Service\\RedisCache\\IRedisConnectionWrapper.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:20:58.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RedisCacheManager.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\RedisCache\\RedisCacheManager.cs",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Service\\PLCRead.Service\\RedisCache\\RedisCacheManager.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\RedisCache\\RedisCacheManager.cs",
+              "RelativeToolTip": "Libraries\\PLCRead.Service\\PLCRead.Service\\RedisCache\\RedisCacheManager.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwCEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:20:43.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PLC_ElecData.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\Database\\PLC_ElecData.cs",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Data\\PLCRead.Data\\Database\\PLC_ElecData.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\Database\\PLC_ElecData.cs",
+              "RelativeToolTip": "Libraries\\PLCRead.Data\\PLCRead.Data\\Database\\PLC_ElecData.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvzkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T05:15:24.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PLCElecConfig.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCElecConfig.cs",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCElecConfig.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCElecConfig.cs",
+              "RelativeToolTip": "Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCElecConfig.cs",
+              "ViewState": "AQIAAJUBAAAAAAAAAAAcwKABAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T03:19:51.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PLCFlitchDataConfig.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCFlitchDataConfig.cs",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCFlitchDataConfig.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCFlitchDataConfig.cs",
+              "RelativeToolTip": "Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCFlitchDataConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T03:19:50.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PLCCollectionConfig.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCCollectionConfig.cs",
+              "RelativeDocumentMoniker": "Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCCollectionConfig.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4FE1\u606F\u5316\u6570\u5B57\u91C7\u96C6\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCCollectionConfig.cs",
+              "RelativeToolTip": "Libraries\\PLCRead.Core\\PLCRead.Core\\Configuration\\PLCCollectionConfig.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T03:16:24.584Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

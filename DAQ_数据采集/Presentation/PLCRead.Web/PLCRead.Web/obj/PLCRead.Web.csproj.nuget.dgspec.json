@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Presentation\\PLCRead.Web\\PLCRead.Web\\PLCRead.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj",
+        "projectName": "PLCRead.Core",
+        "projectPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj",
+        "packagesPath": "C:\\Users\\sz199\\.nuget\\packages\\",
+        "outputPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sz199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Physical": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj",
+        "projectName": "PLCRead.Data",
+        "projectPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj",
+        "packagesPath": "C:\\Users\\sz199\\.nuget\\packages\\",
+        "outputPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sz199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj",
+        "projectName": "PLCRead.Service",
+        "projectPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj",
+        "packagesPath": "C:\\Users\\sz199\\.nuget\\packages\\",
+        "outputPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sz199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj": {
+                "projectPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj"
+              },
+              "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj": {
+                "projectPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "HslCommunication": {
+              "target": "Package",
+              "version": "[11.6.4, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Presentation\\PLCRead.Web\\PLCRead.Web\\PLCRead.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Presentation\\PLCRead.Web\\PLCRead.Web\\PLCRead.Web.csproj",
+        "projectName": "PLCRead.Web",
+        "projectPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Presentation\\PLCRead.Web\\PLCRead.Web\\PLCRead.Web.csproj",
+        "packagesPath": "C:\\Users\\sz199\\.nuget\\packages\\",
+        "outputPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Presentation\\PLCRead.Web\\PLCRead.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sz199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj": {
+                "projectPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Core\\PLCRead.Core\\PLCRead.Core.csproj"
+              },
+              "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj": {
+                "projectPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj"
+              },
+              "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj": {
+                "projectPath": "D:\\co_pro\\长沙中联\\PLCOperate_Redis_Info_Mvc\\ZL_PLC_Redis\\Libraries\\PLCRead.Service\\PLCRead.Service\\PLCRead.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "HslCommunication": {
+              "target": "Package",
+              "version": "[11.6.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

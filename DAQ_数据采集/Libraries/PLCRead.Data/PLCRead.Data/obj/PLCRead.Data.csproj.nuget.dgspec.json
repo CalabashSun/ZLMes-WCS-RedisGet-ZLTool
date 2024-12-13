@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\co_pro\\长沙中联\\信息化数字采集\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj": {}
+  },
+  "projects": {
+    "D:\\co_pro\\长沙中联\\信息化数字采集\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\co_pro\\长沙中联\\信息化数字采集\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj",
+        "projectName": "PLCRead.Data",
+        "projectPath": "D:\\co_pro\\长沙中联\\信息化数字采集\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\PLCRead.Data.csproj",
+        "packagesPath": "C:\\Users\\sz199\\.nuget\\packages\\",
+        "outputPath": "D:\\co_pro\\长沙中联\\信息化数字采集\\ZL_PLC_Redis\\Libraries\\PLCRead.Data\\PLCRead.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sz199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

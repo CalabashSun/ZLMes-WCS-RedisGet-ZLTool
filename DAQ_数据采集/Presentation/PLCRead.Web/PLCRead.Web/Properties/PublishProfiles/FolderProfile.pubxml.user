@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\sz199\Desktop\ZL_Redis_Publsh</_PublishTargetUrl>
+    <History>True|2024-05-13T07:58:09.1641176Z;True|2024-05-13T15:43:58.0182798+08:00;True|2024-05-13T15:29:06.8274554+08:00;True|2024-01-30T14:24:01.3054866+08:00;True|2024-01-30T14:10:12.9656397+08:00;True|2024-01-30T12:51:43.0896768+08:00;True|2024-01-17T14:22:58.1250127+08:00;True|2024-01-17T14:22:36.3989283+08:00;True|2024-01-17T10:38:15.0613418+08:00;True|2024-01-16T10:57:43.6853776+08:00;True|2024-01-16T10:31:24.4845805+08:00;True|2024-01-04T16:25:29.2613014+08:00;True|2024-01-04T16:21:43.0589192+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

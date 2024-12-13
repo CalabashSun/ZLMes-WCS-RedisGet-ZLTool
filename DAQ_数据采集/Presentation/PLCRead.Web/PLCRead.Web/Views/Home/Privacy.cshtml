@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">后台任务进程监听</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#fat">人工组队当前生产</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#mdo">人工组队当前生产读取到的数据</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#mdd">下料线执行</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#one">one</a>
+                <a class="dropdown-item" href="#two">two</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#three">three</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <h4 id="fat">人工组队当前生产</h4>
+    <p id="fid_Data">
+    </p>
+    <h4 id="mdo">人工组队当前生产读取到的数据</h4>
+    <p id="slicing_Data"></p>
+    <h4 id="mdd">结构线绗架下料</h4>
+    <p id="slicing_Task"></p>
+    <h4 id="strussRead">结构线绗架下架左侧数据</h4>
+    <p id="strussLeftContent"></p>
+    <h4 id="strussExcute">结构线绗架下架右侧数据</h4>
+    <p id="strussRightConetnt"></p>
+    <h4 id="mdd2">结构线绗架抓取</h4>
+    <p id="productEnd_Task"></p>
+    <h4 id="strussRead2">结构线绗架抓取北侧数据</h4>
+    <p id="productNorthEndContent"></p>
+    <h4 id="strussExcute2">结构线绗架抓取南侧数据</h4>
+    <p id="productSouthEndContent"></p>
+    <p>...</p>
+</div>
+
+
+
+<script>
+
+    function getRefreshData() {
+        $.ajax({
+            url: '/Home/GetCheckData',//控制器活动,返回一个分部视图,并且给分部视图传递数据.
+            type: 'Get',
+            async: true,//异步
+            success: function (data) //成功后的回调方法
+            {
+                var jsonData = data;
+                console.log(jsonData);
+                var dataJson = JSON.parse(jsonData);
+                $("#fid_Data").html("人工组队当前生产理论读取：20s更新一次" + dataJson["s001"]);//data--就是对应的分部视图页面内容.
+                $("#slicing_Data").html("人工组队读取到的数据理论执行：20s更新一次" + dataJson["s002"]);//data--就是对应的分部视图页面内容.
+                $("#slicing_Task").html("结构线绗架下料：10s更新一次" + dataJson["s003"]);//data--就是对应的分部视图页面内容.
+                $('#strussLeftContent').html("结构线绗架下架左侧数据：10s更新一次" + dataJson["s004"]);
+                $('#strussRightConetnt').html("结构线绗架下架右侧数据：10s更新一次" + dataJson["s005"]);
+                $("#productEnd_Task").html("结构线绗架抓取：10s更新一次" + dataJson["s006"]);//data--就是对应的分部视图页面内容.
+                $('#productNorthEndContent').html("结构线绗架抓取北侧数据：10s更新一次" + dataJson["s007"]);
+                $('#productSouthEndContent').html("结构线绗架抓取南侧数据：10s更新一次" + dataJson["s008"]);
+            },
+            error: function (data) {
+                alert("失败:" + data[0])//弹出框
+            }
+        });
+    }
+    window.setInterval(() => {
+        setTimeout(() => {
+            this.getRefreshData();
+        }, 0)
+    }, 5000)
+
+</script>
+
+
+
+
+

@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">后台任务进程监听</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#fat">贴板信息化读取</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#mdo">组队信息化读取</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#mdd">自动焊信息化读取</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#hangjia">绗架信息化读取</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#one">one</a>
+                <a class="dropdown-item" href="#two">two</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#three">three</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <h4 id="fat">贴板信息化读取</h4>
+    <p id="fat_data">
+    </p>
+    <h4 id="mdo">组队信息化读取</h4>
+    <p id="mdo_Data"></p>
+    <h4 id="mdd">自动焊信息化读取</h4>
+    <p id="mdd_data"></p>
+    <h4 id="mdd_error">自动焊信息化失败ip读取</h4>
+    <p id="mdd_error_data"></p>
+    <h4 id="hangjia">绗架信息化读取</h4>
+    <p id="hangjia_data"></p>
+    <p>...</p>
+</div>
+
+
+
+<script>
+
+    function getRefreshData() {
+        $.ajax({
+            url: '/Home/GetCheckInfoData',//控制器活动,返回一个分部视图,并且给分部视图传递数据.
+            type: 'Get',
+            async: true,//异步
+            success: function (data) //成功后的回调方法
+            {
+                var jsonData = data;
+                console.log(jsonData);
+                var dataJson = JSON.parse(jsonData);
+                $("#fat_data").html("贴板信息化采集：20s更新一次" + dataJson["s001"]);//data--就是对应的分部视图页面内容.
+                $("#mdo_Data").html("组队信息化采集：20s更新一次" + dataJson["s002"]);//data--就是对应的分部视图页面内容.
+                $("#mdd_data").html("自动焊信息化采集：10s更新一次" + dataJson["s003"]);//data--就是对应的分部视图页面内容.
+                $('#mdd_error_data').html("自动焊plc未连接数据：10s更新一次" + dataJson["s004"]);
+                $('#hangjia_data').html("绗架数据：10s更新一次" + dataJson["s005"]);
+
+            },
+            error: function (data) {
+                alert("失败:" + data[0])//弹出框
+            }
+        });
+    }
+    window.setInterval(() => {
+        setTimeout(() => {
+            this.getRefreshData();
+        }, 0)
+    }, 5000)
+
+</script> 
