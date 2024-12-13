@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OperateHSL.Web</name>
+    </assembly>
+    <members>
+        <member name="T:OperateHSL.Web.Controllers.AGVController">
+            <summary>
+            agv接口交互
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.AGVController.#ctor(OperateHSL.Services.AgvService.IAgvControlService,OperateHSL.Services.LogService.IApiLogService)">
+            <summary>
+            
+            </summary>
+            <param name="agvControlService"></param>
+            <param name="logService"></param>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.AGVController.AgvCallBack(OperateHSL.Data.AGVCallBack.DataCallBackRequest)">
+            <summary>
+            AGV返回结果回告
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.AGVController.AgvHandleDoor(OperateHSL.Data.AGVCallBack.DataHanldeDoor)">
+            <summary>
+            AGV处理光栅门数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:OperateHSL.Web.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.HomeController.#ctor(OperateHSL.Core.Caching.ICacheManager,OperateHSL.Services.PlcInfoService.IPlcDataService,OperateHSL.Services.MesOrderService.IOrderOperateService)">
+            <summary>
+            
+            </summary>
+            <param name="cacheManager"></param>
+            <param name="plcDataService"></param>
+        </member>
+        <member name="T:OperateHSL.Web.Controllers.MesDataController">
+            <summary>
+            中科云谷mes接口交互
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.#ctor(OperateHSL.Services.LogService.IApiLogService,OperateHSL.Services.MesOrderService.IOrderOperateService,OperateHSL.Services.AgvService.IAgvControlService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="apiLogService"></param>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.OrderInfo(OperateHSL.Data.ThirdMes.MesOrderRequest)">
+            <summary>
+            中科云谷下发订单数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.EmptyTray(OperateHSL.Data.ThirdMes.EmptyTrayRequest)">
+            <summary>
+            中科云谷下发置空托盘指令
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.EmptyRickingTray(OperateHSL.Data.ThirdMes.EmptyRickingTrayRequest)">
+            <summary>
+            合信下发置空托盘指令
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.CloseWeldingRoom(OperateHSL.Data.ThirdMes.CloseWelding)">
+            <summary>
+            合信下发关闭打磨房叫料送料指令
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.StructalSignal(OperateHSL.Data.ThirdMes.StructuralSignalHandle)">
+            <summary>
+            合信下发下件区托盘情况送料指令
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.CallCollectionOrderState(System.String,System.String,System.String,System.String)">
+            <summary>
+            上报中科云谷下料线订单执行情况
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.CallStructuralOrderState(System.String,System.String,System.Int32,System.String,System.String)">
+            <summary>
+            上报中科云谷结构线订单执行情况
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.SNDataCallBack(System.String,System.String)">
+            <summary>
+            上报中科云谷结构线订单执行情况 SN回传及组队订单完工
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.SNDataCallBackSync(System.String,System.String)">
+            <summary>
+            同步返回结果
+            </summary>
+            <param name="jobNo"></param>
+            <param name="sn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.AutoDataCallBak(System.String)">
+            <summary>
+            自动焊接口报工
+            </summary>
+            <param name="rfidCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.MesDataController.ReportMesByLog(System.Int32)">
+            <summary>
+            通过日志报工
+            </summary>
+            <param name="logId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OperateHSL.Web.Controllers.StereoscopicController">
+            <summary>
+            立体库接口交互
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Controllers.StereoscopicController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:OperateHSL.Web.Infrastructure.DependencyRegistrar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.DependencyRegistrar.Register(Autofac.ContainerBuilder,OperateHSL.Core.Infrastructure.ITypeFinder,Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <param name="typeFinder"></param>
+            <param name="services"></param>
+        </member>
+        <member name="P:OperateHSL.Web.Infrastructure.DependencyRegistrar.Order">
+            <summary>
+            Gets order of this dependency registrar implementation
+            </summary>
+        </member>
+        <member name="T:OperateHSL.Web.Infrastructure.SettingsSource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.SettingsSource.RegistrationsFor(Autofac.Core.Service,System.Func{Autofac.Core.Service,System.Collections.Generic.IEnumerable{Autofac.Core.IComponentRegistration}})">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+            <param name="registrations"></param>
+            <returns></returns>
+        </member>
+        <member name="P:OperateHSL.Web.Infrastructure.SettingsSource.IsAdapterForIndividualComponents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.Extensions.ServiceCollectionExtensions.ApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.Extensions.ServiceCollectionExtensions.ConfigureApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add services to the application and configure service provider
+            </summary>
+            <param name="services">Collection of service descriptors</param>
+            <param name="configuration">Configuration root of the application</param>
+            <returns>Configured service provider</returns>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.Extensions.ServiceCollectionExtensions.ConfigureStartupConfig``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Create, bind and register as service the specified configuration parameters
+            </summary>
+            <typeparam name="TConfig">Configuration parameters</typeparam>
+            <param name="services">Collection of service descriptors</param>
+            <param name="configuration">Set of key/value application configuration properties</param>
+            <returns>Instance of configuration parameters</returns>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.Extensions.ServiceCollectionExtensions.AddHttpContextAccessor(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register HttpContextAccessor
+            </summary>
+            <param name="services">Collection of service descriptors</param>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.Extensions.ServiceCollectionExtensions.AddProjectMvc(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            注册mvc
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.Extensions.ServiceCollectionExtensions.AddTasks(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            新增任务
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.Extensions.ServiceCollectionExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            swagger注册
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:OperateHSL.Web.Infrastructure.Filter.ApiExceptionFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.Filter.ApiExceptionFilter.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="M:OperateHSL.Web.Infrastructure.Filter.ApiExceptionFilter.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:OperateHSL.Web.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Program.Main(System.String[])">
+            <summary>
+            程序入口
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:OperateHSL.Web.Program.BuildWebHost(System.String[])">
+            <summary>
+            创建webhost
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OperateHSL.Web.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Startup
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="P:OperateHSL.Web.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OperateHSL.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OperateHSL.Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

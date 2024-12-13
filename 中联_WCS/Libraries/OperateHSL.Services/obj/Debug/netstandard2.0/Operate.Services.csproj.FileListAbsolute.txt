@@ -1,0 +1,6 @@
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Services\bin\Debug\netstandard2.0\Operate.Services.deps.json
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Services\bin\Debug\netstandard2.0\Operate.Services.dll
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Services\obj\Debug\netstandard2.0\Operate.Services.csprojAssemblyReference.cache
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Services\obj\Debug\netstandard2.0\Operate.Services.csproj.CoreCompileInputs.cache
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Services\obj\Debug\netstandard2.0\Operate.Services.AssemblyInfoInputs.cache
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Services\obj\Debug\netstandard2.0\Operate.Services.AssemblyInfo.cs

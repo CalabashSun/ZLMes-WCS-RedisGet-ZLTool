@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="PlcControlService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="HslCommunication" Version="11.6.4" />
+    <PackageReference Include="log4net" Version="2.0.15" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OperateHSL.Core\OperateHSL.Core.csproj" />
+    <ProjectReference Include="..\OperateHSL.Data\OperateHSL.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="JW.UHF">
+      <HintPath>..\..\ThirdDll\JW.UHF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

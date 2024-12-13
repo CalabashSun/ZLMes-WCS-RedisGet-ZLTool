@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RazorCompileOnBuild>false</RazorCompileOnBuild>
+    <RazorCompileOnPublish>false</RazorCompileOnPublish>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\co_pro\长沙中联\PLCOperate_HSL\Presentation\OperateHSL.Web\HecinApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="110.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.4.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\OperateHSL.Core\OperateHSL.Core.csproj" />
+    <ProjectReference Include="..\..\Libraries\OperateHSL.Data\OperateHSL.Data.csproj" />
+    <ProjectReference Include="..\..\Libraries\OperateHSL.Services\OperateHSL.Services.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Reference Include="JW.UHF">
+      <HintPath>..\..\ThirdDll\JW.UHF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

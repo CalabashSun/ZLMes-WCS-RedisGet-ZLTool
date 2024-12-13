@@ -1,0 +1,9 @@
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Core\bin\Debug\netstandard2.0\Operate.Core.deps.json
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Core\bin\Debug\netstandard2.0\Operate.Core.dll
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Core\bin\Debug\netstandard2.0\Operate.Core.pdb
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Core\obj\Debug\netstandard2.0\Operate.Core.csprojAssemblyReference.cache
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Core\obj\Debug\netstandard2.0\Operate.Core.csproj.CoreCompileInputs.cache
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Core\obj\Debug\netstandard2.0\Operate.Core.AssemblyInfoInputs.cache
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Core\obj\Debug\netstandard2.0\Operate.Core.AssemblyInfo.cs
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Core\obj\Debug\netstandard2.0\Operate.Core.dll
+D:\co_pro\长沙中联\PLCOperate\PLCOperate\Libraries\Operate.Core\obj\Debug\netstandard2.0\Operate.Core.pdb

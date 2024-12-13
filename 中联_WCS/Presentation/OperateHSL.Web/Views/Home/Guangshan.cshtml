@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Guangshan";
+}
+
+<h3>北侧一号门</h3>
+<div>
+    <button type="button" onclick="operatedoor(1,1)" class="btn btn-success">打开</button>
+    <button type="button" onclick="operatedoor(1,2)" class="btn btn-success">关闭</button>
+</div>
+</br>
+
+<h3>北侧二号门</h3>
+<div>
+    <button type="button" onclick="operatedoor(2,1)" class="btn btn-success">打开</button>
+    <button type="button" onclick="operatedoor(2,2)" class="btn btn-success">关闭</button>
+</div>
+</br>
+
+<h3>南侧一号门</h3>
+<div>
+    <button type="button" onclick="operatedoor(3,1)" class="btn btn-success">打开</button>
+    <button type="button" onclick="operatedoor(3,2)" class="btn btn-success">关闭</button>
+</div>
+</br>
+
+<h3>南侧二号门</h3>
+<div>
+    <button type="button" onclick="operatedoor(4,1)" class="btn btn-success">打开</button>
+    <button type="button" onclick="operatedoor(4,2)" class="btn btn-success">关闭</button>
+</div>
+
+
+<script>
+    function operatedoor(doorId, type) {
+        var postJson = {
+            "reqCode": "pageoerate",
+            "doorId": doorId,
+            "openType": type
+        };
+        $.ajax({
+            url: '/api/AGV/AgvHandleDoor',//控制器活动,返回一个分部视图,并且给分部视图传递数据.
+            type: 'post',
+            data: JSON.stringify(postJson),
+            dataType: "json",
+            contentType: "application/json",
+            async: true,//异步
+            success: function (data) //成功后的回调方法
+            {
+                var jsonResult = data;
+                if (jsonResult.code == "0") {
+                    alert("操作成功");
+                } else {
+                    alert("操作失败");
+                }
+
+            }
+        })
+
+    }
+
+
+</script>

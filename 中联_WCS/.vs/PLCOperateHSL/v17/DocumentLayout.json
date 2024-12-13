@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_WCS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE9A8C9-E2A6-4287-9FFA-68AFEAFE4A17}|Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_wcs\\presentation\\operatehsl.web\\operatehsl.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3BE9A8C9-E2A6-4287-9FFA-68AFEAFE4A17}|Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj|solutionrelative:presentation\\operatehsl.web\\operatehsl.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE9A8C9-E2A6-4287-9FFA-68AFEAFE4A17}|Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_wcs\\presentation\\operatehsl.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BE9A8C9-E2A6-4287-9FFA-68AFEAFE4A17}|Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj|solutionrelative:presentation\\operatehsl.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE9A8C9-E2A6-4287-9FFA-68AFEAFE4A17}|Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_wcs\\presentation\\operatehsl.web\\operatehsl.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}",
+      "RelativeMoniker": "D:0:0:{3BE9A8C9-E2A6-4287-9FFA-68AFEAFE4A17}|Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj|solutionrelative:presentation\\operatehsl.web\\operatehsl.web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OperateHSL.Web",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_WCS\\Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj",
+              "RelativeDocumentMoniker": "Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_WCS\\Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj",
+              "RelativeToolTip": "Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T01:04:50.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_WCS\\Presentation\\OperateHSL.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Presentation\\OperateHSL.Web\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_WCS\\Presentation\\OperateHSL.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Presentation\\OperateHSL.Web\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T01:02:49.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OperateHSL.Web",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_WCS\\Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj",
+              "RelativeDocumentMoniker": "Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_WCS\\Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj",
+              "RelativeToolTip": "Presentation\\OperateHSL.Web\\OperateHSL.Web.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T01:02:49.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

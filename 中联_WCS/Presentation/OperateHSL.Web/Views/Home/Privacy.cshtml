@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">后台任务进程监听</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#fat">rfid请求和读取</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#mdo">下料线读取</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#mdd">下料线执行</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#dmf">打磨房执行</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#dmcf">打磨完成缓存区执行</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#one">one</a>
+                <a class="dropdown-item" href="#two">two</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#three">three</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <h4 id="fat">rfid请求</h4>
+    <p id="fid_Data">
+    </p>
+    <h4 id="dmf">打磨房调度信息</h4>
+    <p id="weldingInfoContent"></p>
+    <h4 id="fat">rfid读取</h4>
+    <p id="fid_readData">
+    </p>
+    <h4 id="mdo">下料线读取</h4>
+    <p id="slicing_Data"></p>
+    <h4 id="mdd">下料线执行</h4>
+    <p id="slicing_Task"></p>
+    <h4 id="strussRead">结构线下件满箱执行</h4>
+    <p id="strussReadContent"></p>
+    <h4 id="strussExcute">结构线行架下架执行</h4>
+    <p id="strussExcuteConetnt"></p>
+    <h4 id="dmcf">打磨完成缓存到上挂区执行</h4>
+    <p id="upCatchTaskConetnt"></p>
+</div>
+
+
+
+<script>
+
+    function getRefreshData() {
+        $.ajax({
+            url: '/Home/GetCheckData',//控制器活动,返回一个分部视图,并且给分部视图传递数据.
+            type: 'Get',
+            async: true,//异步
+            success: function (data) //成功后的回调方法
+            {
+                var jsonData = data;
+                var fidData = JSON.parse(jsonData["s003"]);
+                var htmlData = "";
+                fidData.forEach(function (element) {
+                    htmlData += "<div>" + element + "</div>"
+                });
+                $("#fid_Data").html("FID理论请求结果：5s更新一次" + htmlData);//data--就是对应的分部视图页面内容.
+
+                //var fidGetData = JSON.parse(jsonData["s006"])
+                //var htmlData2 = "";
+                //fidGetData.forEach(function (element2) {
+                //    htmlData2 += "<div>" + element2 + "</div>"
+                //});
+
+
+                $("#weldingInfoContent").html("打磨房处理信息：10s更新一次" + jsonData["s006"]);
+               // $("#fid_readData").html("FID理论读取结果：5s更新一次" + htmlData2);//data--就是对应的分部视图页面内容.
+
+                $("#slicing_Data").html("下料线理论读取：10s更新一次"+jsonData["s001"]);//data--就是对应的分部视图页面内容.
+                $("#slicing_Task").html("下料线理论执行：20s更新一次" +jsonData["s002"]);//data--就是对应的分部视图页面内容.
+                
+                $('#strussReadContent').html("结构线下件满箱执行：7s更新一次" + jsonData["s004"]);
+                $('#strussExcuteConetnt').html("结构线行架执行：5s更新一次" + jsonData["s005"]);
+                $('#upCatchTaskConetnt').html("上挂区打磨完成料调度执行：13s更新一次" + jsonData["s007"]);
+            },
+            error: function (data) {
+                alert("失败:" + data[0])//弹出框
+            }
+        });
+    }
+    window.setInterval(() => {
+        setTimeout(() => {
+            this.getRefreshData();
+        },0)
+    },5000)
+
+</script>
