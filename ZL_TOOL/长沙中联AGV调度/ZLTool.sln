@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLOperateTool", "ZLOperateTool\ZLOperateTool.csproj", "{64C127E6-E100-475E-B8CF-CC0B2BDE150D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C127E6-E100-475E-B8CF-CC0B2BDE150D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C127E6-E100-475E-B8CF-CC0B2BDE150D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C127E6-E100-475E-B8CF-CC0B2BDE150D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C127E6-E100-475E-B8CF-CC0B2BDE150D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1C37347-410D-44B6-9635-806027DA171C}
+	EndGlobalSection
+EndGlobal

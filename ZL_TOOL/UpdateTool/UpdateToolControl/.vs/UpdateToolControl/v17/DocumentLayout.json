@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_AGVControl_Tool\\UpdateTool\\UpdateToolControl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D02F6B28-74C6-4434-BCF4-B06FE5A4870D}|UpdateToolControl\\UpdateToolControl.csproj|d:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_agvcontrol_tool\\updatetool\\updatetoolcontrol\\updatetoolcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D02F6B28-74C6-4434-BCF4-B06FE5A4870D}|UpdateToolControl\\UpdateToolControl.csproj|solutionrelative:updatetoolcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D02F6B28-74C6-4434-BCF4-B06FE5A4870D}|UpdateToolControl\\UpdateToolControl.csproj|D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_AGVControl_Tool\\UpdateTool\\UpdateToolControl\\updatetoolcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D02F6B28-74C6-4434-BCF4-B06FE5A4870D}|UpdateToolControl\\UpdateToolControl.csproj|solutionrelative:updatetoolcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|UpdateToolControl||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_AGVControl_Tool\\UpdateTool\\UpdateToolControl\\UpdateToolControl\\Form1.cs",
+              "RelativeDocumentMoniker": "UpdateToolControl\\Form1.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_AGVControl_Tool\\UpdateTool\\UpdateToolControl\\UpdateToolControl\\Form1.cs",
+              "RelativeToolTip": "UpdateToolControl\\Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwHwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:06:32.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateToolControl",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_AGVControl_Tool\\UpdateTool\\UpdateToolControl\\UpdateToolControl\\UpdateToolControl.csproj",
+              "RelativeDocumentMoniker": "UpdateToolControl\\UpdateToolControl.csproj",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_AGVControl_Tool\\UpdateTool\\UpdateToolControl\\UpdateToolControl\\UpdateToolControl.csproj",
+              "RelativeToolTip": "UpdateToolControl\\UpdateToolControl.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-26T01:30:29.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_AGVControl_Tool\\UpdateTool\\UpdateToolControl\\UpdateToolControl\\Form1.cs",
+              "RelativeDocumentMoniker": "UpdateToolControl\\Form1.cs",
+              "ToolTip": "D:\\co_pro\\\u957F\u6C99\u4E2D\u8054\\\u4E2D\u8054_AGVControl_Tool\\UpdateTool\\UpdateToolControl\\UpdateToolControl\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "UpdateToolControl\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T01:30:02.195Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
